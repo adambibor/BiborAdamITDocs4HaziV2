@@ -1,0 +1,71 @@
+---
+id: delete-pet
+title: "Deletes a pet."
+description: "Delete a pet."
+sidebar_label: "Deletes a pet."
+hide_title: true
+hide_table_of_contents: true
+api: eJyVVk1v20YQ/SvTvSQGaNKxgx50qtH4YDRojMo+FLYQjMghuQm5u9kdSlEF/vdilqQpR3KL+GJqd2bem+/dK8YqqMWjcsRqlaiCQu61Y22NWqgP1BATIDjiVCXKOvIod7eFWqgi3t4Rq0Q59NgSkxdje2WwJbVQ6PTnr7RTidJiriYsyKsfUVSiPH3rtKdCLUpsAiUq5DW1qBZ7xTsnpgJ7bSrV98mzdUd8W0y2HXJ9ZPmOGHQBbGHg+gKJfXcKSBumKrIsrW+Rh6Nf36u+X4l6cNYECqJxeXEh/44xB7RC9Yl6f0rm1myw0YWEFTbYdCSSBZXYNXws/WDou6OcqQDy3gq13BomE2XRuUbnMSvZlyAK+2On7PoL5TFPXnLIenAgtwWdiHGiWgoBq1N3/WEIHwcLs/wqUay5EYWbSLWXv0QFyjuveReLwxEHtp4+Y8e1GNl6zbSQ45ggLIbvlQS8Ja7tXG2x1ERLZY4428ca6JUg+M1UfZ1vpNqYXVhk2QR3lYYtVhX5VNsMnc42V0oQJm5LCdoQlx8YzmGU35dSGo3dRkndSvT1kImOa+v1PzEXD//PIVrLJi1xLeTWDQwOQrJQrS10uZNqCaAN7GznAfPcdoZfBGwRv4f7eDAEf+rC2Q90+o/Ylv/Zp6KrTWmj4pjV5UAf7kaH4Bw+OTLXd7dwlV4cNeB9rQPoAAgBW9eQ6MEyKi5jwmCNgQqwBrimQ1MQHOW6HCs7BfjbdpCjgVKbAmzH0IoVXNuOn8xECxkep5jPkV69PT47S+F2AOVa+wI0j6MNbBmPpTejiwls6c2GIGw15zXFcSICBQVdCR8fGNA5bzGvf3kyE1Fjt1BT46ALoFvn7Yainji4rYlr8qD5TYD1Dlr8qk0FeY2mojAjlNroSEpzoKYE66c7abz0ydzXyLDFXQJbzTWwbiPfSOBHUG2gIkMemwTQFEDfnQ0EwbY0OW1oCyUhd55iqX26Xl6lT+bJLEWoC1R2DTTafA2LJ3MOj/f1YUo9ORs0W7+bI15prrt1mtt2Cv659N70PTXG2bO5YDufD4QP/C/F80Own0bI1o1dZy0GJp8Fn2ctapN5GvBCZh0ZdDrdYducqUQx+TZ8KqVMdU4HvXzQwVEmG+cx5nEKUIu6GXqKCdvfZnEZrI3OyYQ4WMfeu3aY1wSXsXteTq7tdptivE6tr7JRN2Qfb3+/+XN5c36ZXqQ1t40YluE39Ny79CJ9dylnzgZu0RyADQs9zBv9Rbvu571ytPrHycH0nTPXoDYCEOnux4k8vCEStRj28ipRtQ0s5/u9dPmDb/pejr915GUTrBK1Qa9xLZPlca8KHeR7fgS8Su7tX+MKOoMTK/4k1WnyGZlyw86NL484GMenRL/qk2n4/Ryh11AH6/N4fQaWZ8xweZ3n5Pjg7mihv1iDH24+3tzfqES9tprGD+F/0ud5s8C8OSamcQFFcid1f3Kdjd53XMs2fNXq8w6dNCqPhj9H2X7V9/2/LgarLA==
+sidebar_class_name: "delete api-method"
+info_path: docs/petstore/swagger-petstore-openapi-3-0
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Deletes a pet."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"delete"}
+  path={"/pet/{petId}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Delete a pet.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"api_key","in":"header","description":"","required":false,"schema":{"type":"string"}},{"name":"petId","in":"path","description":"Pet id to delete","required":true,"schema":{"type":"integer","format":"int64"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Pet deleted"},"400":{"description":"Invalid pet value"},"default":{"description":"Unexpected error","content":{"application/json":{"schema":{"type":"object","properties":{"code":{"type":"string"},"message":{"type":"string"}},"required":["code","message"],"title":"Error"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      

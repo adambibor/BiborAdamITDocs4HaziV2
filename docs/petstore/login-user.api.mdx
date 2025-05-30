@@ -1,0 +1,71 @@
+---
+id: login-user
+title: "Logs user into the system."
+description: "Log into the system."
+sidebar_label: "Logs user into the system."
+hide_title: true
+hide_table_of_contents: true
+api: eJyVVt9v2zYQ/ldufOkKyFKa7MlPC4pgCBasxZIAHZKgoKWTxIYiWd4pimf4fx+OkmKncdr1yTJ5d993P3kbxbohtbxRPWFUd5mqkMpoAhvv1FJd+AaMYw/cItCaGLtcZcoHjFpEziu1VNY3xl2LfqaCjrpDxihGN8rpDtUyGU+fmTJi9muPca2+BbtqEUQSRBRqHyFZVpmK+LU3ESu1rLUlzBSVLXZaLTeK10EQiKNxjdpusyfQoIkGH6sfg86SO0wwDkqLOgLjI/8cgzuRpuAdIcn98dGR/DyHpb4skajuLTwFU2WqRV2l2G3Up8XfmnFxYTrDL/VLbS1BwAit7yNoa/2AFazWKVP9mIwXHI1jbNJV7WOneTw6OZa4qU+Ls8dgItLitGaMLzErzSiBub56D0OLDtjfowMctQ7hTTHZgxMbCzYdqq1glt4xuuSfDsGaMgWieOysHH0ny8/Ev5Dw+568aPx2KA/n7kFbU8FcocVTLVAvCFiprZRMrXt7IA3XDh8DlowVYIxeIvuKS69y9KsvWEqJhSiVwGasmtJXeMCTTHVIpJtDd9v9Mr0ZLezk7zLFhq0onCWq2zEsHXLrpY0bTCw0t2qpCglIMfcfYXyYW7qPVi1VyxxoWRQBmdhHPMlp0E2DMTe+0MEUDydKOoGw7KPh9aW4PXo2q3zWvUDtAiH/j6VYrB+SpOkkfmP5y6WP5t8Uzesfc0jWilkLU3X6MDIYomFcippaqs5Xpl6D/JPiXqd2Kkvfu7HvdTVLyvd4nw7G8OlgPt/jes8PHcyfKINmmkOzxDSGxhZP2TKu9klxysvlSB8+Tg7BAj4EdKcfz+EkPzowugyBIdBAugsWRQ8uk+JlShisNGEF3qWhsGcKKGBp6qk2c4B/fA+ldlAbV4HvGTqxole+51s309IMN3PMd5G++/Xl2dsczkdQbk2swPA04sDX6TggQ3IxgwHfPCDQYLhssYLpramQTCN8IjHoEKLXZfvLrZuJOj9AizZAT2C6EP0DJj1xcGiRW4xg+A3JROz0vXENlK12DdIOoTbOJFKGCW0NPs530jr5rbtqNcOg1xkMhluQsSV8E4FvQY2DBh1GbTPQrpKp6AmBfIez0w4HqFFzHzGV2ofTy5P81t26SxHqCeU1sMbd0/LWLeBGnqZdSiMGT4Z9XO8i3hhu+1Ve+m4O/kJ6b/6eG+PtkznyfSxHwnv+y7PH+2A/jVCsrF8VnSbGWFAsi04bV0Qc8ajwAZ0OJl/rzr5VmWKMHX2opUxNiXu9vNfBSaaYJqou0xTAThs79hSj7n7fictotKZER2k0Tr13GnTZIhyn7nk+uYZhyHW6zn1sikmXiovz92d/XZ4tjvOjvOXOimEZfmPPvcuP8nfHchY8cafdHtiFb2hcYA6sTM9ad7N7JV5bsaZhIutHEaw2TjCTB5tpRk87WzbuXzLfW08s55uNNP51tNutHI+Lj8zuypBe2b0t5lVWr+9iB4mlCbi/5j1o24uYkoXs52D/xzb2HQ57W9+Ow538iUZIqOXN3XZetFJQRr3TssTAe1rf7iNi5Omt/OPsSm23/wGCS+p5
+sidebar_class_name: "get api-method"
+info_path: docs/petstore/swagger-petstore-openapi-3-0
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Logs user into the system."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/user/login"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Log into the system.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"username","in":"query","description":"The user name for login","required":false,"schema":{"type":"string"}},{"name":"password","in":"query","description":"The password for login in clear text","required":false,"schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"successful operation","headers":{"X-Rate-Limit":{"description":"calls per hour allowed by the user","schema":{"type":"integer","format":"int32"}},"X-Expires-After":{"description":"date in UTC when token expires","schema":{"type":"string","format":"date-time"}}},"content":{"application/xml":{"schema":{"type":"string"}},"application/json":{"schema":{"type":"string"}}}},"400":{"description":"Invalid username/password supplied"},"default":{"description":"Unexpected error","content":{"application/json":{"schema":{"type":"object","properties":{"code":{"type":"string"},"message":{"type":"string"}},"required":["code","message"],"title":"Error"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      

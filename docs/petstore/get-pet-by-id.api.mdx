@@ -1,0 +1,71 @@
+---
+id: get-pet-by-id
+title: "Find pet by ID."
+description: "Returns a single pet."
+sidebar_label: "Find pet by ID."
+hide_title: true
+hide_table_of_contents: true
+api: eJztV0tz2zYQ/isoLolnaNJxMj3wVDd2O5p2Gk9sHzq2JrMiVyQSEkCApWRVw//eWYC0KFtOk7bHXGwI2MeHbx9YbiVB5WV+Ky2SnCeyRF84ZUkZLXP5Hqlz2gsQXumqQWGRUplIY9EBy8xKmcsK6RLp582slIm04KBFQsdWt1JDizJn6+FUsVULVMvHrmbnwizZviAjXPArE+nwc6ccljIn12EifVFjCzLfStpYNqw0YYVOJnJpXAsUt358I/t+zureGu3Rs8bpyQn/23fru6JA75ddIx4uJRNZGE2oieXB2kYV4SD76FlpO4GxA3gb75pIWxsyN67xzOcA0yw+YkF86NgNqQhJlV9zlUTiPbS2QZm/OumTgdMHPU9O6WoqJUtTVQpln8gCCCvjNhP5/w3LV0E5N5WXfZ/I+7ZhySEhHnD1iSRFQfTtZG9H4s46OAcb+WBp7cDaMTX6RCrC1h8Cs+95tCx7RhXT/9+6+E9UPkvfU7YIqilR1xCFPAF1B6+8n+RcVVFWKC2oRuHJOM5V1F3LqQsrUA0smpC/qMtoxZumlPOncLhXTOBc8s8+2auUQeF7oXwvlO+Fsl8oLPbm0Fs00ytoVClm58J3XEtYyiD75qnsJZLQhsTSdDpIlbiErqGnkjca7y0WhKVA54z7ltfty9ErTHkoKIls0XuongnYtBEECzv5+Y6qiwC1j2x5LDqnaBMmCrDqwyfk9bxPtkxxiNEH6Khmm2unCHPeDvMDlHE953mgRarNMLKEWYVVZGaRsm0YUXoOJrrVOL50rpG5rImsz7Ns9PU69WuoKnSpMhlYla1eSzY/4rxiAiNHj+DtKOXfp5zrjVnHWmg5EipGpaPaOPVXiMvNP2MI1rJRiyn1hbERwYSPXLamVMsNj1khwzemcwKKwnSa9tjKwzqeh40YiAfud33Aqt+QG8GQ8aPEMOrVCCW6EHellyYoDhG+ivDF5XAhcSzeWdRnlzPxOj15UprXtfJChVE0dEzWE1dB8SoETCzAYylMrNuJKeEtFmo5ZHkqxJ+mEwVosVS6FKYj0bIVWJiO7vQIC0jcjpzvmJ6/fLp3lIpZdEq1cqVQNMyRPNDyduwqxmEi1vhihcKvFRU1ljzqskCJXlWMx3kSYK0zUNQ/3OkRqDZrUWNjBfel1jqzwqDHF1zXSDU6oeiFF4uNaOGT0pUoatAV+p2HpdIqgFLksVkK48YzLsL0Tl/XQGINm0SsFdWCVBvwBgCPnSotKtTooEkE6FLgvTUehTctjpfWuBZLBOochlR7d3b1Or3Td/qKhTqPPHI3Sn/y+Z0+FrfX9TSkDq3xiozb7BivFNXdIi1MO5J/zLU3rsfCOHow503nigh4cv8l33zq7Js9ZIvGLLIWPKHLvCuyFpTOHEZ/PjMWNViVbqBtjmQiCV3r3y05TVWBk1qeVHCQyYbeDEXoAtiCamJNEUL7006cm2yjCtQeJ6/NmYWiRnEaqme/c63X6xTCcWpclQ26Pvt99vbij6uL49P0JK2pbdgwN79Yc6/Sk/TVaZgyjKcW9MTZL1w8nNmLjZidp4/rdbt7ZJ79ihxaCOE9ZbYBpdlTwL0dWnP8LE1kHr8f54msjSfe32653G9c0/e8/blDF56ERK7AqfBAc/8uled1KfMlNB6/APLl++FdOhKHP0UPoh27oOaOt4Km418ykaFJDl+9/bxPxkbImOLZWVGgpYnWk5d478H69eJaJvLRIwJWxV47LNj6QUS7rhyd819+PA8Kb7exqff9g3w8elZjuNwozdTM+77/G7rmlkU=
+sidebar_class_name: "get api-method"
+info_path: docs/petstore/swagger-petstore-openapi-3-0
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Find pet by ID."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/pet/{petId}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Returns a single pet.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"petId","in":"path","description":"ID of pet to return","required":true,"schema":{"type":"integer","format":"int64"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"successful operation","content":{"application/json":{"schema":{"required":["name","photoUrls"],"type":"object","properties":{"id":{"type":"integer","format":"int64","example":10},"name":{"type":"string","example":"doggie"},"category":{"type":"object","properties":{"id":{"type":"integer","format":"int64","example":1},"name":{"type":"string","example":"Dogs"}},"xml":{"name":"category"},"title":"Category"},"photoUrls":{"type":"array","xml":{"wrapped":true},"items":{"type":"string","xml":{"name":"photoUrl"}}},"tags":{"type":"array","xml":{"wrapped":true},"items":{"type":"object","properties":{"id":{"type":"integer","format":"int64"},"name":{"type":"string"}},"xml":{"name":"tag"},"title":"Tag"}},"status":{"type":"string","description":"pet status in the store","enum":["available","pending","sold"]}},"xml":{"name":"pet"},"title":"Pet"}},"application/xml":{"schema":{"required":["name","photoUrls"],"type":"object","properties":{"id":{"type":"integer","format":"int64","example":10},"name":{"type":"string","example":"doggie"},"category":{"type":"object","properties":{"id":{"type":"integer","format":"int64","example":1},"name":{"type":"string","example":"Dogs"}},"xml":{"name":"category"},"title":"Category"},"photoUrls":{"type":"array","xml":{"wrapped":true},"items":{"type":"string","xml":{"name":"photoUrl"}}},"tags":{"type":"array","xml":{"wrapped":true},"items":{"type":"object","properties":{"id":{"type":"integer","format":"int64"},"name":{"type":"string"}},"xml":{"name":"tag"},"title":"Tag"}},"status":{"type":"string","description":"pet status in the store","enum":["available","pending","sold"]}},"xml":{"name":"pet"},"title":"Pet"}}}},"400":{"description":"Invalid ID supplied"},"404":{"description":"Pet not found"},"default":{"description":"Unexpected error","content":{"application/json":{"schema":{"type":"object","properties":{"code":{"type":"string"},"message":{"type":"string"}},"required":["code","message"],"title":"Error"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      

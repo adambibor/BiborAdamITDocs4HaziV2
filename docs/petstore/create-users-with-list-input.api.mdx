@@ -1,0 +1,71 @@
+---
+id: create-users-with-list-input
+title: "Creates list of users with given input array."
+description: "Creates list of users with given input array."
+sidebar_label: "Creates list of users with given input array."
+hide_title: true
+hide_table_of_contents: true
+api: eJztV01v3DYQ/SvsXNIAsuSPtAed4gY+uA3ioGujKOxFwKVGEhOJZMiR5e1i/3sxlLSrdYykBnpL9rIS+YaceZp5Q26AZBUgv4UuoIdlAgUG5bUjbQ3k8MajJAyi0YGELQWjgug11aLS92iENq4jIb2X6xQSsA69ZNvLAnJQ0fqGbf7SVL/VgS4ZDwl4/NxhoN9ssYZ8A8oaQkP8KJ1rtIqLZB8De7GBoGpsJT/R2iHkEDeEBDRhG2bjdvURFa/vPLtCGuOsLmYYbQgr9JBAaX0raRj69RUkgA+ydQ1CfnK8TSIlRrY4sw3ktanmSKA6RgjbBErtA737psXvtjYMb+R/QssWA8Oxlbr5Ovajrc3riEuVbdnIyRB664uv252cnr36JcJra77hzw7L9CxIUheeJPcwkZgiMaIPiT87PSB+u03goY1xDtwPmblNgDRFBwa2+cdpFJw1YfjKp8fH/He48aJTCkMou0bskhOSZyfcj8T6bhIrOciI0eRHQny/CcHAAkvZNfSlvtwYfHCoCAuB3lv//2mLssUTBG0TaDEEWT01tx0aq/ZYcE+PK+zxy31kF9HVUURbpNpyv3Y2RDck1ZBDxnRkQw+f2jckENDfo+czwwY630AONZELeZY5pEDW41kaellV6FNtM+l0dn8G2yVbqs5rWi+YgCHGyeSD7HjPPSX8zp+rbGw/FFbLTOqB1Y5q6/U/kdebb/sQV8smK6YkKOsGD3qvCXM2gxxaW+hyLfhNaCPWtvNCKmU7M5xZZDEh+XmYjwMDkdLpD59wPT+nOP0H8kFlzLAJkYDm5KlRFqPmcHb8uT8UXUxpejtoysnxXCV2UnCgBEO5z6t9LOldRT8u23nVjuW2q8zd+7z6Tvg7alPaGOOYTIuBafF+5F4ciSuH5vz9pThLj78o0OtaB6GDkCLEGNlOLKLhIuaWWMmAhbBGUI3zpURwqHQ5FlQqxN+2E0oaUWpTCNuRaHkVubId3ZnJLUnidkqPfVIsf/5y7GUqLodNqda+EJrGAwMffXnYIYkYYiJ6fHGPIvSaVI2FIBsBBQZdsT8+kJDOeStV/dOdmRw1thc1Nk50QejWeXuP0Y4D7GukGr3Q9CKI1Vq08pM2lVC1NBWG/Q6lNjo6pSlgUwrrpzmu9/TOXNeSRC/XyXBQJ91Gf6MDjzfVRlRo0MsmEdIUAh+cDSiCbXEK2mAvSpTUeYxVcXW+OEvvzJ1ZMKgLyGerRptPIb8zR+L2up5/Uo/OBk3Wr/eMV5rqbsUZOJF/xDIxPU81/HK3XLCdV4PDs/hLjny+2bN3yFaNXWWtDIQ+C15lrdQm8zjsFzLr0Ein07Vsm5eQAKFvw1XJaaoVzmRnJjYRk41tQKooWFP5SacJZft6D4/dWSs0AWeN6NxJVaM4jdVzKLJ936cyTqfWV9loG7K3l28u3i0ujk7T47SmtuGFWaeHmjtJj9OT09h3baBWmtlmz73jHVTz7Or27IVGjSR8oMw1UsejSox2M/ag8VqawKMutEyg5l6V38Jmw2px45vtloc/d+jXkN8uE7iXXstV1NDlNpm0lgU1ajS8GRw/umY3GN50g0Q/atnbZLI4VwodfRW7nLXT91eLa0hgNd5x29jPwcuee4nsIYd4Y2br2Iri2AYaaaou9ncY1uTfvxfhXM4=
+sidebar_class_name: "post api-method"
+info_path: docs/petstore/swagger-petstore-openapi-3-0
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Creates list of users with given input array."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/user/createWithList"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Creates list of users with given input array.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={undefined}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={{"content":{"application/json":{"schema":{"type":"array","items":{"type":"object","properties":{"id":{"type":"integer","format":"int64","example":10},"username":{"type":"string","example":"theUser"},"firstName":{"type":"string","example":"John"},"lastName":{"type":"string","example":"James"},"email":{"type":"string","example":"john@email.com"},"password":{"type":"string","example":"12345"},"phone":{"type":"string","example":"12345"},"userStatus":{"type":"integer","description":"User Status","format":"int32","example":1}},"xml":{"name":"user"},"title":"User"}}}}}}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Successful operation","content":{"application/json":{"schema":{"type":"object","properties":{"id":{"type":"integer","format":"int64","example":10},"username":{"type":"string","example":"theUser"},"firstName":{"type":"string","example":"John"},"lastName":{"type":"string","example":"James"},"email":{"type":"string","example":"john@email.com"},"password":{"type":"string","example":"12345"},"phone":{"type":"string","example":"12345"},"userStatus":{"type":"integer","description":"User Status","format":"int32","example":1}},"xml":{"name":"user"},"title":"User"}},"application/xml":{"schema":{"type":"object","properties":{"id":{"type":"integer","format":"int64","example":10},"username":{"type":"string","example":"theUser"},"firstName":{"type":"string","example":"John"},"lastName":{"type":"string","example":"James"},"email":{"type":"string","example":"john@email.com"},"password":{"type":"string","example":"12345"},"phone":{"type":"string","example":"12345"},"userStatus":{"type":"integer","description":"User Status","format":"int32","example":1}},"xml":{"name":"user"},"title":"User"}}}},"default":{"description":"Unexpected error","content":{"application/json":{"schema":{"type":"object","properties":{"code":{"type":"string"},"message":{"type":"string"}},"required":["code","message"],"title":"Error"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      
