@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+tapasztalatok:
+  label: Tapasztalatok
+  permalink: /tapasztalatok
+  description: Tapasztalatok tag description
